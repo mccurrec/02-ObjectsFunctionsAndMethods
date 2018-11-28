@@ -182,11 +182,13 @@ def try_methods_and_functions():
     draw_many_squares(turtle2,2,100,30)
     turtle2.speed = 5
     turtle2.pen.color = 'red'
-    turtle2.pen = rg.Pen('red',5)
     draw_many_squares(turtle2,10,50,15)
     turtle2.speed = 100
-    turtle2.pen = rg.Pen('red',35)
+    turtle2.pen.thickness = 35
     draw_many_squares(turtle2,8,300,60)
+    turtle2.pen = rg.Pen('black',3)
+    turtle2.draw_circle(30)
+    turtle2.draw_square(50)
 
 
 
