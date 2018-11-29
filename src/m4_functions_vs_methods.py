@@ -187,6 +187,7 @@ def try_methods_and_functions():
     turtle2.pen.thickness = 35
     draw_many_squares(turtle2,8,300,60)
     turtle2.pen = rg.Pen('black',3)
+    turtle2.backward(200)
     turtle2.draw_circle(30)
     turtle2.draw_square(50)
 
@@ -224,7 +225,7 @@ def try_methods_and_functions():
       8. Draw a SQUARE whose sides are each of length 50.
     """
     ###########################################################################
-    # TODO: 6. Implement and test this function, per its doc-string above.
+    # DONE: 6. Implement and test this function, per its doc-string above.
     #   The testing code (in main) is already written for you.
     #
     #   NOTE: This function should ** CALL ** the
